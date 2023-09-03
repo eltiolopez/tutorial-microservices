@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import com.jld.userservice.models.Bike;
-import com.jld.userservice.models.Car;
 
 @FeignClient(name = "bike-service", url = "http://localhost:8003/bike")
 public interface BikeFeignClient {

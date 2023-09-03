@@ -1,13 +1,15 @@
-
 server:
-    port: 8081
+  port: 8081
 spring:
-    cloud:
-        config:
-            server:
-                git:
-                    default-label: main
-                    uri: https://github.com/eltiolopez/tutorial-microservices
-                    seach-paths: config-data
-    application:
-        name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          # Git repo branch name:
+          default-label: config-server
+          # Git repo uri:
+          uri: https://github.com/eltiolopez/tutorial-microservices
+          # Git repo config dir:
+          search-paths: config-data
+  application:
+    name: config-service

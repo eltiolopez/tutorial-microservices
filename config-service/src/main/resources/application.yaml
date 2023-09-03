@@ -6,7 +6,7 @@ spring:
       server:
         git:
           # Git repo branch name:
-          default-label: eureka-multiple-instances
+          default-label: gateway
           # Git repo uri:
           uri: https://github.com/eltiolopez/tutorial-microservices
           # Git repo config dir:

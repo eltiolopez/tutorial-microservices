@@ -6,7 +6,7 @@ spring:
       server:
         git:
           # Git repo branch name:
-          default-label: zipkin-micrometer
+          default-label: keycloak
           # Git repo uri:
           uri: https://github.com/eltiolopez/tutorial-microservices
           # Git repo config dir:
